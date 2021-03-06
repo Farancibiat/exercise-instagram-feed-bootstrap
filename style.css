@@ -1,0 +1,10 @@
+.navbar-brand{
+    font-family: 'Oleo Script', cursive !important;
+    font-weight: 400;
+    font-size: 25px;
+    color:gray !important;
+} 
+
+#ig-cog{
+    color: gray !important;
+}

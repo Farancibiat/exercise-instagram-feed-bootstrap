@@ -8,3 +8,19 @@
 #ig-cog{
     color: gray !important;
 }
+
+div img{
+    height: 250px;
+}
+
+#greyBody{
+    background-color: rgb(224, 223, 223);
+}
+
+.card-img{
+    height: 430px;
+}
+
+.card-body{
+    padding: 15px 10px 0px 10px;
+}

@@ -22,7 +22,7 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Instagram Photo Feed - Bootstrap</title>
   </head>
 
@@ -33,7 +33,7 @@
       <div class="container d-flex flex-nowrap">
         <a class="navbar-brand me-auto" href="#"
           ><i class="fab fa-instagram"></i> Instagram</a
-        > 
+        >
         <button
           type="button"
           class="btn btn-success"
@@ -82,16 +82,20 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                <button
+                  type="button"
+                  class="btn btn-light"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
                 <button type="button" class="btn btn-success">Publish</button>
               </div>
             </div>
           </div>
         </div>
-
-        
         <!-- Settings btn -->
-        <div class="btn px-2" >
+        <div class="btn px-2">
           <button
             type="button"
             class="btn btn-light dropdown-toggle"
@@ -100,7 +104,7 @@
             data-bs-display="static"
             aria-expanded="false"
           >
-            <i class="fas fa-cog" ></i>
+            <i class="fas fa-cog"></i>
           </button>
           <ul class="dropdown-menu dropdown-menu-lg-end">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -115,19 +119,412 @@
 
     <!-- Change display -->
 
-    <div class="btn- group container d-flex justify-content-center">
-      <a class="btn btn-outline-secondary border-0" id="view1" href="index1.html"
+    <div class="btn group d-flex justify-content-center">
+      <a
+        class="btn btn-outline-secondary border-0"
+        id="view1"
+        href="index1.html"
         ><i class="fas fa-th"></i
       ></a>
-      <a class="btn btn-outline-secondary border-0 active" aria-current="page" id="view2" href="index.html"
+      <a
+        class="btn btn-outline-secondary border-0 active"
+        aria-current="page"
+        id="view2"
+        href="index.html"
         ><i class="fas fa-stop"></i
       ></a>
     </div>
 
     <!-- Images Display -->
 
-    <div class="container"></div>
+    <div class="container-fluid pt-5" id="greyBody">
+      
 
+      <!-- POST 1 -->
+
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="row">
+                <div class="col-10">
+                  <h5 class="card-title">Lenguita Paint</h5>
+                </div>
+                <div class="col-2">
+                  <h5 class="card-title text-muted">21/12</h5>
+                </div>
+              </div>
+            </div>
+            <img src="Lenga-impresion.jpg" class="card-img" alt="Lenga" />
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2">1.000.000 Likes</h6>
+              <p class="d-flex justify-content-center p-0">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="far fa-heart text-muted"></i>
+                  </div>
+                
+                <div class="col-10">
+                  <small class="text-muted">Comment...</small>
+                </div>
+                <div class="col-1">
+                  <i class="fas fa-ellipsis-v text-muted"></i>
+                </div>
+              </div>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+
+
+      <!-- POST 2 -->
+
+      <div class="row mt-5">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="row">
+                <div class="col-10">
+                  <h5 class="card-title">Botero The Cat</h5>
+                </div>
+                <div class="col-2">
+                  <h5 class="card-title text-muted">20/12</h5>
+                </div>
+              </div>
+            </div>
+            <img src="WhatsApp Image 2021-03-09 at 11.42.47.jpeg" class="card-img" alt="Botero" />
+            <div class="card-body pb-0">
+              <h6 class="card-subtitle mb-2">999.999 Likes</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="far fa-heart text-muted"></i>
+                  </div>
+                <div class="col-10">
+                  <small class="text-muted">Comment...</small>
+                </div>
+                <div class="col-1">
+                  <i class="fas fa-ellipsis-v text-muted"></i>
+                </div>
+              </div>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+
+      <!-- POST 3 -->
+
+      <div class="row mt-5">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="row">
+                <div class="col-10">
+                  <h5 class="card-title">Shima Survivor</h5>
+                </div>
+                <div class="col-2">
+                  <h5 class="card-title text-muted">19/12</h5>
+                </div>
+              </div>
+            </div>
+            <img src="50611371582_731837a462_c.jpg" class="card-img" alt="Xima" />
+            <div class="card-body pb-0">
+              <h6 class="card-subtitle mb-2">400 Likes</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="far fa-heart text-muted"></i>
+                  </div>                
+                <div class="col-10">
+                  <small class="text-muted">Comment...</small>
+                </div>
+                <div class="col-1">
+                  <i class="fas fa-ellipsis-v text-muted"></i>
+                </div>
+              </div>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>    
+
+     
+
+    <!-- POST 4 -->
+
+    <div class="row mt-5">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header bg-white">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Golden Puppies</h5>
+              </div>
+              <div class="col-2">
+                <h5 class="card-title text-muted">18/12</h5>
+              </div>
+            </div>
+          </div>
+          <img src="pexels-chevanon-photography-1108099.jpg" class="card-img" alt="Golden Puppies" />
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">45 Likes</h6>
+            <p class="d-flex justify-content-center p-0">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <p class="card-text">
+              <div class="row">
+                <div class="col-1">
+                  <i class="far fa-heart text-muted"></i>
+                </div>              
+              <div class="col-10">
+                <small class="text-muted">Comment...</small>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-ellipsis-v text-muted"></i>
+              </div>
+            </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+
+    <!-- POST 5 -->
+
+    <div class="row mt-5">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header bg-white">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Winking Puppy</h5>
+              </div>
+              <div class="col-2">
+                <h5 class="card-title text-muted">17/12</h5>
+              </div>
+            </div>
+          </div>
+          <img src="pexels-dominika-roseclay-2023384.jpg" class="card-img" alt="Winking Puppy" />
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">45 Likes</h6>
+            <p class="d-flex justify-content-center p-0">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <p class="card-text">
+              <div class="row">
+                <div class="col-1">
+                  <i class="far fa-heart text-muted"></i>
+                </div>              
+              <div class="col-10">
+                <small class="text-muted">Comment...</small>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-ellipsis-v text-muted"></i>
+              </div>
+            </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+
+
+    <!-- POST 6 -->
+
+    <div class="row mt-5">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header bg-white">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Gray Dog</h5>
+              </div>
+              <div class="col-2">
+                <h5 class="card-title text-muted">16/12</h5>
+              </div>
+            </div>
+          </div>
+          <img src="pexels-alexandru-rotariu-733416.jpg" class="card-img" alt="Gray Dog" />
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">45 Likes</h6>
+            <p class="d-flex justify-content-center p-0">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <p class="card-text">
+              <div class="row">
+                <div class="col-1">
+                  <i class="far fa-heart text-muted"></i>
+                </div>              
+              <div class="col-10">
+                <small class="text-muted">Comment...</small>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-ellipsis-v text-muted"></i>
+              </div>
+            </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+
+
+    <!-- POST 7 -->
+
+    <div class="row mt-5">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header bg-white">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Fake Didy Dog</h5>
+              </div>
+              <div class="col-2">
+                <h5 class="card-title text-muted">14/12</h5>
+              </div>
+            </div>
+          </div>
+          <img src="pexels-kat-jayne-551628.jpg" class="card-img" alt="Fake Didy Dog" />
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">45 Likes</h6>
+            <p class="d-flex justify-content-center p-0">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <p class="card-text">
+              <div class="row">
+                <div class="col-1">
+                  <i class="far fa-heart text-muted"></i>
+                </div>              
+              <div class="col-10">
+                <small class="text-muted">Comment...</small>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-ellipsis-v text-muted"></i>
+              </div>
+            </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+    
+
+    <!-- POST 8 -->
+
+    <div class="row mt-5">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header bg-white">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Appearing Dog</h5>
+              </div>
+              <div class="col-2">
+                <h5 class="card-title text-muted">13/12</h5>
+              </div>
+            </div>
+          </div>
+          <img src="pexels-lumn-406014.jpg" class="card-img" alt="Appearing Dog" />
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">45 Likes</h6>
+            <p class="d-flex justify-content-center p-0">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <p class="card-text">
+              <div class="row">
+                <div class="col-1">
+                  <i class="far fa-heart text-muted"></i>
+                </div>              
+              <div class="col-10">
+                <small class="text-muted">Comment...</small>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-ellipsis-v text-muted"></i>
+              </div>
+            </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+
+    <!-- POST 9 -->
+
+    <div class="row mt-5 pb-3">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header bg-white">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Three Stuning Dogs</h5>
+              </div>
+              <div class="col-2">
+                <h5 class="card-title text-muted">13/12</h5>
+              </div>
+            </div>
+          </div>
+          <img src="pexels-nancy-guth-850602.jpg" class="card-img" alt="Three Stuning Dogs" />
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">45 Likes</h6>
+            <p class="d-flex justify-content-center p-0">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <p class="card-text">
+              <div class="row">
+                <div class="col-1">
+                  <i class="far fa-heart text-muted"></i>
+                </div>              
+              <div class="col-10">
+                <small class="text-muted">Comment...</small>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-ellipsis-v text-muted"></i>
+              </div>
+            </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
     <!-- Scripts -->
 
     <script
